@@ -32,6 +32,16 @@ for char in "Bipul Chaudhary":
     print(char)
 
 
+# use of break
+
+while True:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    print(f"The sum of {num1} and {num2} is {num1 + num2}")
+    should_continue = input("Would you like to continue? Y/N: ")
+    if should_continue.upper() == "N":
+        break
+
 
 
 
