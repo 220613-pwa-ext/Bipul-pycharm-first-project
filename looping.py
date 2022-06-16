@@ -18,5 +18,9 @@ for i in range(10):
 
 print()
 
+# challenge: print the word "AUM" 108 times
+
+for _ in range(1, 109):
+    print(str(_) + " AUM")
 
 
