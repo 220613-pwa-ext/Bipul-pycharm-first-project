@@ -1,0 +1,7 @@
+print(int("10"))
+print(str(11))
+print(bool(0))
+print(bool(11))
+print(float(12))
+print(int(13.33))
+print(bool(None))
