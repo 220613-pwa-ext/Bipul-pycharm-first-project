@@ -1,9 +1,9 @@
 num = 1
-while num < 1001:
-    print(num)
+while num < 101:
+    print(num, end=" ")
     num += 1
 
-
+print()
 
 
 
