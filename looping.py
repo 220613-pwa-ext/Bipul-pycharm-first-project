@@ -20,7 +20,18 @@ print()
 
 # challenge: print the word "AUM" 108 times
 
-for _ in range(1, 109):
-    print(str(_) + " AUM")
+for i in range(1, 109):
+    print(str(i) + " AUM")
+
+# challenge: print out number 10 to 1 in reverse order
+
+for i in range(10, 0, -1):
+    print(i)
+
+for char in "Bipul Chaudhary":
+    print(char)
+
+
+
 
 
